@@ -203,7 +203,7 @@ def dijkstra_plan(src, dst, ContactList_data):
     # Contact Graph Dijkstra Search
     C_fin, BDT = CGR(G, C_root, dst, q)
 
-    print('Path Found')
+    print('Path Found', '\n')
 
     # BackTrack
     node_list, contact_list = BackTrack(C_fin)
@@ -215,10 +215,18 @@ def dijkstra_plan(src, dst, ContactList_data):
 
 if __name__ == "__main__":
 
-    node_list, contact_list, BDT = dijkstra_plan(1, 12, '../ContactList.txt')
+    src = 1
+    dst = 12
+    ContactList_path = '../data/ContactList.txt'
 
-    print('Contact Node List IDs:', contact_list)
+    print('Source Network Node:', src)
+    print('Destination Network Node:', dst, '\n')
 
-    print('Network Node List:', node_list)
+    node_list, contact_list, BDT = dijkstra_plan(src, dst, ContactList_path)
+
+
+    print('Contact Node List IDs:', contact_list, '\n')
+
+    print('Network Node List:', node_list, '\n')
 
     print('Best-case Delivery Time:', BDT)
