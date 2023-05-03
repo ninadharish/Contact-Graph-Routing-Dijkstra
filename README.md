@@ -3,7 +3,7 @@
 ## Description
 
 This project attempts to solve the Contact Graph Routing Problem as described in the paper Juan A. Fraire, Olivier De Jonckère, Scott C. Burleigh,
-Routing in the Space Internet: A contact graph routing tutorial, Journal of Network and Computer Applications, Volume 174, 2021, 102884, ISSN 1084-8045, https://doi.org/10.1016/j.jnca.2020.102884. [Link](https://www.sciencedirect.com/science/article/pii/S1084804520303489).
+Routing in the Space Internet: A contact graph routing tutorial, Journal of Network and Computer Applications, Volume 174, 2021, 102884, ISSN 1084-8045, https://doi.org/10.1016/j.jnca.2020.102884. 
 
 
 ## Output
